@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #76889e;
+}
+    /* for centering the elements */
+.header, .mid, .buttons, .again{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mid2{
+    display: flex;
+    justify-content: center;
+}
+    /*  */
+
+.mid, .mid2, .buttons{
+    color: rgb(189, 169, 133);
+    background-color: #101d2c;
+    font-size: 40px;
+}
+
+.title{
+    font-size: 65px;
+    color: rgb(43, 35, 35);
+}
+
+#roundExtra{
+    font-size: 40px;
+}
+    /* button elements styles */
+.buttons{
+    gap: 140px;
+}
+
+.btn{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(127, 199, 175);
+}
+
+.btn:hover, .btnReplay:hover{
+    border: solid black ;
+}
+
+.btn:hover{
+    background-color: rgb(53, 109, 90);
+}
+
+.btnReplay:hover{
+    background-color: rgb(138, 49, 49);
+}
+
+.btnReplay{
+    background-color: rgb(121, 196, 196);
+    border-radius: 10px;
+    width: 280px;
+    height: 120px;
+    display: none;
+}
+
+.chosen{
+    font-size: 45px;
+}
+    /*  */
+
+    /* score element styles */
+.result-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.score{
+    font-size: 70px;
+    color: rgb(25, 43, 37);
+    font-weight: 900;
+}
+    /*  */

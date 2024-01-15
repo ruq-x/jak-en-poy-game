@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper & Scissors</title>
 </head>
 <body>
-    <script src="game.js"></script>
-    
+    <div class="header">
+        <h1 class="title">JAK EN POY</h1>
+    </div>
+    <div class="mid">
+            <h2>PLAYER OPTIONS</h2>
+    </div>
+    <div class="buttons">
+        <button class="btn" id="rockBtn">
+            <div class="chosen">Rock✊</div>
+        </button>
+        <button class="btn" id="paperBtn">
+            <div class="chosen">Paper✋</div>
+        </button>
+        <button class="btn" id="scissorsBtn">
+            <div class="chosen">Scissor✌</div>
+        </button>
+    </div>
+    <div class="mid2">
+        <h5 id="conclusion">First to score 5 points wins</h5>
+    </div>
+    <div class="mid">
+        <h2 id="roundExtra">Round result:</h2>
+    </div>
+    <div class="mid">
+        <h2 id="round">None</h2>
+    </div>
+    <div class="again">
+        <button class="btnReplay" id="replayBtn">
+            <div class="chosen">Play Again!</div>
+        </button>
+    </div>
+    <div class="result-container">
+        <div class="score-box">
+            <p class="score" id="playerScore">Player: 0</p>
+        </div>
+        <div class="score-box">
+            <p class="score" id="computerScore">Computer: 0</p>
+        </div>
+    </div>
+    <script src="game.js" defer></script>
 </body>
 </html>
